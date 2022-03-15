@@ -1,0 +1,155 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1140523100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on techfios login page",
+            "match": {
+              "location": "TechFiosStepDefinition.user_is_on_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-10T08:03:07.125Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2962704200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechFiosStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "techfios-login-functionality-validation;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 51700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechFiosStepDefinition.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 828692300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"username\" from techfios database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 13
+                }
+              ],
+              "location": "TechFiosStepDefinition.user_enters_from_techfios_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236371500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters \"password\" from techfios database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 13
+                }
+              ],
+              "location": "TechFiosStepDefinition.user_enters_from_techfios_database(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1727506700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "TechFiosStepDefinition.user_clicks_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 347033300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "TechFiosStepDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DbLoginFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@DBScenario1"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios Login functionality validation",
+    "description": "",
+    "id": "techfios-login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/TechFiosLoginFromDB.feature",
+    "tags": [
+      {
+        "name": "@DbLoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 17
+        }
+      }
+    ]
+  }
+]
